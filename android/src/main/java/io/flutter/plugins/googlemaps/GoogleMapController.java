@@ -532,7 +532,7 @@ final class GoogleMapController
     mapView.onResume();
   }
 
-  @Override
+  /*@Override
   public void onActivityResumed(Activity activity) {
     if (disposed || activity.hashCode() != registrarActivityHashCode) {
       return;
@@ -543,7 +543,7 @@ final class GoogleMapController
     if (googleMap != null) {
       googleMap.setMapType(googleMap.getMapType());
     }
-  }
+  }*/
 
   @Override
   public void onPause(@NonNull LifecycleOwner owner) {
